@@ -18,7 +18,7 @@ lora_config =  LoraConfig(
         r=64,
         lora_alpha=64,
         lora_dropout=0.05,
-        target_modules=["qkv_proj", "o_proj"],
+        target_modules=["qkv_proj", "o_proj", "gate_up_proj", "down_proj"],
         task_type="CAUSAL_LM",
         bias="none"
 )
