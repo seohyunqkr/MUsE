@@ -6,6 +6,16 @@
 - MUsE model is now available in 🤗[Huggingface Models](https://huggingface.co/seohyunqkr/MUsE).
 - MUsE Dataset for user-friendly instruction tuning dataset is now available in 🤗[Huggingface Datasets](https://huggingface.co/datasets/seohyunqkr/MUsE).
 
+## 🍇 How to train and test 🎼 MUsE?
+
+```shell
+python train.py # training MUsE
+
+python test.py # testing MUsE
+```
+
+> 🤗 Huggingface model id is `seohyunqkr/MUsE`
+
 ## 🚀 User-friendly Text Generation
 
 ### Conversation with MUsE Examples
