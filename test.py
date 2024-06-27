@@ -10,7 +10,7 @@ model = AutoPeftModelForCausalLM.from_pretrained(
     trust_remote_code=True,
     attn_implementation='flash_attention_2',
 ).cuda()
-tokenizer = AutoTokenizer.from_pretrained("your_path/trained_phi3_2")
+tokenizer = AutoTokenizer.from_pretrained("seohyunqkr/MUsE")
 
 # system prompt function
 system_prompt = lambda x: f'You should adaptively use proper words and sentences to make {x} understand. Please include contexts familiar with {x}'
