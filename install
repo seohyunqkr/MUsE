@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 pip install torch torchvision torchaudio
 
 pip install flash-attn --no-build-isolation
