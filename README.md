@@ -9,6 +9,10 @@
 ## 🍇 How to train and test 🎼 MUsE?
 
 ```shell
+[Optional] create virtual environment
+
+bash install # install package
+
 python train.py # training MUsE
 
 python test.py # testing MUsE
