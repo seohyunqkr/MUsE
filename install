@@ -1,0 +1,6 @@
+#!/bin/sh
+pip install torch torchvision torchaudio
+
+pip install flash-attn --no-build-isolation
+
+pip install -r requirements.txt
