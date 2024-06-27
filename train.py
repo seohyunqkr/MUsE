@@ -26,7 +26,7 @@ model = get_peft_model(model, lora_config)
 
 # Training Data
 import pickle
-with open(f'your_path/dataset_merge.pkl', 'rb') as f:
+with open(f'your_path/MUsE.pkl', 'rb') as f:
     train_data = pickle.load(f)
 
 
