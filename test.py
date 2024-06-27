@@ -5,7 +5,7 @@ from peft import AutoPeftModelForCausalLM
 
 # Model and Tokenizer upload
 model = AutoPeftModelForCausalLM.from_pretrained(
-    "your_path/trained_phi3",
+    "seohyunqkr/MUsE",
     torch_dtype=torch.float16,
     trust_remote_code=True,
     attn_implementation='flash_attention_2',
